@@ -9,6 +9,7 @@ const Login = () => {
 	const url = '';
 
   return (
+		<>
     <section className={styles.login}>
 		<div className={styles.login_box}>
 			<div className={styles.left}>
@@ -39,6 +40,7 @@ const Login = () => {
 			</div>
 		</div>
 	</section>
+	</>
   );
 };
 
